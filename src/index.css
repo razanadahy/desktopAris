@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Ramona';
+  src: url('Ramona Light 300.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: "Ramona", serif !important;
+  width: 100%;
+  overflow-x: hidden !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+.py-7{
+  padding-bottom: 8rem!important;
+  padding-top: 8rem !important;
+}
+.bg-home{
+  background: linear-gradient(87deg,#11cdef,#1171ef) !important;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+.bg-gradient-blue{
+  background: linear-gradient(87deg,#11cdef,#1171ef) !important;
+}
+.w-20{
+  width: 20% !important;
+}
+.main-content{
+  background-color: #172b4d !important;
+}
+.mt--8{
+  margin-top: -7rem !important;
+}
+.color-red{
+  color: #ea5471 !important;
+}
+
+.logo-img{
+  vertical-align: middle;
+  border-style: none;
+  height: 45px ;
+  width: auto;
+}
+.w-80{
+  width: 80% !important;
+}
+.cursor-pointer{
+  cursor: pointer !important;
+}
+.sidenav-toggler-line{
+  width: 18px!important;
+  height: 1px!important;
+  background-color: #172b4d;
+  display: block;
+  position: relative;
 }
