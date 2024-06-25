@@ -30,26 +30,34 @@ const SlideBar = () => {
                             </li>
                             <li className="list-group-item border-0  my-1 rounded-2 cursor-pointer">
                                 <span className="pe-2">
-                                    <i className="fs-5 fas fa-door-closed"/>
+                                    <i className="fa-solid fa-spinner"/>
                                 </span>
                                 <span className="fs-5">
-                                    Tableau de bord
+                                    Offres en cours
                                 </span>
                             </li>
                             <li className="list-group-item border-0  my-1 rounded-2 cursor-pointer">
                                 <span className="pe-2">
-                                    <i className="fs-5 fas fa-door-closed"/>
+                                    <i className="fa-solid fa-plus"/>
                                 </span>
                                 <span className="fs-5">
-                                    Tableau de bord
+                                    Nouvelle offre
                                 </span>
                             </li>
                             <li className="list-group-item border-0 my-1 rounded-2 cursor-pointer">
                                 <span className="pe-2">
-                                    <i className="fs-5 fas fa-door-closed"/>
+                                    <i className="fa-solid fa-boxes-packing"/>
                                 </span>
                                 <span className="fs-5">
-                                    Tableau de bord
+                                    Archives
+                                </span>
+                            </li>
+                            <li className="list-group-item border-0 my-1 rounded-2 cursor-pointer">
+                                <span className="pe-2">
+                                    <i className="fa-solid fa-gear"/>
+                                </span>
+                                <span className="fs-5">
+                                    Paramètres
                                 </span>
                             </li>
                         </ul>

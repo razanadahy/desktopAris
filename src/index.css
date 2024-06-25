@@ -59,15 +59,15 @@ body {
 }
 .list-group-item{
   font-size: 1.1rem !important;
-  transition: all 500ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 .list-group-item:hover{
-  background-color: rgba(97, 211, 230, 0.45) !important;
-  color: white !important;
-  transform: skew(0deg,1deg);
+  background-color: rgba(225, 236, 237, 0.45) !important;
+  color: black !important;
+  transform: translateX(5px);
 }
 .active-li{
   color: white !important;
-  background-color: #172b4d ;
+  background-color: #172b4d !important;
   font-size: 1.25rem !important;
 }
