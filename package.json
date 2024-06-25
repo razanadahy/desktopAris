@@ -8,6 +8,7 @@
   "description": "desktop application avec react",
   "dependencies": {
     "@electron/remote": "^2.1.2",
+    "@fortawesome/fontawesome-free": "^6.5.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

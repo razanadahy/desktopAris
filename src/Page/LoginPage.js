@@ -100,7 +100,7 @@ const LoginPage = () => {
                                             <Button className="w-100" variant="danger" onClick={reset}>annuler</Button>
                                         </div>
                                         <div className="col-md-6 pe-0 col-sm-12">
-                                            <Button variant="warning" className="w-100" type={`${load ? 'button' : 'submit'}`}>
+                                            <Button variant="primary" className="w-100" type={`${load ? 'button' : 'submit'}`}>
                                                 {load ? (<div className="py-0 spinner-border spinner-border-sm" role="status">
                                                     <span className="visually-hidden">Loading...</span>
                                                 </div>):("Valider")}

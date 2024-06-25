@@ -39,9 +39,9 @@
                 : `file://${path.join(__dirname, '../build/index.html')}`
         );
 
-        //if (isDev) {
-            //mainWindow.webContents.openDevTools();
-        //}
+        if (isDev) {
+            mainWindow.webContents.openDevTools();
+        }
     }
     function createSignupWindow() {
         signupWindow = new BrowserWindow({
